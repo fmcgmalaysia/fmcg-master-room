@@ -8,7 +8,8 @@ Independent Master departmental workspace. Purchase UX prototype with fictional 
 - UI source commit: `1988bdf9fe11a7711913d5f7b9a45b40cca083b3`
 - GitHub Pages source: `fix/purchase-contrast-po-20261008`, repository root.
 - Wix: scoped inline HTML synchronization and Studio live confirmation completed.
-- Public-page verification and user acceptance: pending password-protected page entry.
+- Public-page verification: passed on the actual password-protected Wix page after a full refresh; deployed script and styles exactly match the UI source.
+- User acceptance: independent confirmation pending; no production-baseline merge or verified tag has been made.
 
 The current UI supports Special Purchase tasks, editable P.O. associations with one supplier and one customer, input keyboard navigation, and darker staff text. Task identity, quantity, pricing and history mechanisms are retained.
 
