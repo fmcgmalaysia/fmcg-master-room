@@ -4,15 +4,16 @@ Independent Master departmental workspace. Purchase UX prototype with fictional 
 
 ## Current release
 
-- Build: `2026-10-08-master-purchase-ux-v10`
-- UI source commit: `9cc75a3697a12fd68dc935fc4dd1439b97a8d3ea`
-- GitHub Pages source: `style/purchase-description-width-20261008`, repository root.
-- Wix: two scoped inline HTML patches, complete readback and Studio live confirmation passed.
-- Actual public Wix page: v10 script and requested column widths verified after reload.
-- GitHub Pages: deployment succeeded and the v10 marker and requested column widths were verified on the public Pages site.
-- User acceptance: independent confirmation pending; no production-baseline merge or verified tag has been made.
+- Build: `2026-10-08-master-purchase-ux-v11`
+- UI source commit: `1e9bed791df8dc059be4fbd4ac199f18fc92cc06`
+- Pages source: `feat/purchase-draft-date-20261009`, repository root.
+- Pages deployment succeeded and the v11 marker/date layout were verified.
+- Wix: nineteen scoped patches, full exact readback and Studio live confirmation completed.
+- Actual public-page verification: passed after full refresh and password entry; deployed script/styles match the source, date layout and draft/cancel behavior verified, original order data retained.
 
-Supplier uses 8% of the table and Description 23%; other columns, CSS and business mechanisms are unchanged. Previous capabilities include Special Purchase tasks, editable P.O. associations restricted to one supplier/customer, keyboard input navigation and darker staff text.
+Unsubmitted edits are cached separately from committed data and can be restored in the same browser. Manual Save remains the formal submission. Matching-source checks prevent stale drafts from silently replacing newer saved records, and cache failures are reported.
 
-CMS, real staff authorization, Pointbase and cross-site integrations are not connected. GP is a read-only projection; Purchase Room does not calculate profit. Private diagnostics stay outside this repository.
+Est. Shipment Date appears in Dashboard/customer summaries. Values remain unknown until a real order-level date source is connected. Product Description remains23% and Supplier8%.
+
+CMS, real staff authorization, Pointbase and cross-site integrations are not connected. GP remains an external read-only projection. Private diagnostics and browser draft contents are not stored in this repository. No production-baseline merge or verified tag is made before independent user acceptance.
 
