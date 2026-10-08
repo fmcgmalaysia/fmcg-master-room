@@ -4,14 +4,15 @@ Independent Master departmental workspace. Purchase UX prototype with fictional 
 
 ## Current release
 
-- Build: `2026-10-08-master-purchase-ux-v9`
-- UI source commit: `1988bdf9fe11a7711913d5f7b9a45b40cca083b3`
-- GitHub Pages source: `fix/purchase-contrast-po-20261008`, repository root.
-- Wix: scoped inline HTML synchronization and Studio live confirmation completed.
-- Public-page verification: passed on the actual password-protected Wix page after a full refresh; deployed script and styles exactly match the UI source.
+- Build: `2026-10-08-master-purchase-ux-v10`
+- UI source commit: `9cc75a3697a12fd68dc935fc4dd1439b97a8d3ea`
+- GitHub Pages source: `style/purchase-description-width-20261008`, repository root.
+- Wix: two scoped inline HTML patches, complete readback and Studio live confirmation passed.
+- Actual public Wix page: v10 script and requested column widths verified after reload.
+- GitHub Pages: deployment succeeded and the v10 marker and requested column widths were verified on the public Pages site.
 - User acceptance: independent confirmation pending; no production-baseline merge or verified tag has been made.
 
-The current UI supports Special Purchase tasks, editable P.O. associations with one supplier and one customer, input keyboard navigation, and darker staff text. Task identity, quantity, pricing and history mechanisms are retained.
+Supplier uses 8% of the table and Description 23%; other columns, CSS and business mechanisms are unchanged. Previous capabilities include Special Purchase tasks, editable P.O. associations restricted to one supplier/customer, keyboard input navigation and darker staff text.
 
-CMS, real staff authorization, Pointbase and cross-site business integrations are not connected. GP is a read-only projection; Purchase Room does not calculate profit. Private diagnostic evidence stays outside this repository. Task pull requests remain unmerged pending user acceptance.
+CMS, real staff authorization, Pointbase and cross-site integrations are not connected. GP is a read-only projection; Purchase Room does not calculate profit. Private diagnostics stay outside this repository.
 
