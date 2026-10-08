@@ -14,3 +14,17 @@ body{font-size:12px}.dept{font-size:12px;letter-spacing:1px}.brand{font-size:19p
 
 /* Clear selection replaces the header select-all checkbox. */
 .roomhead~.panel th:first-child{padding:3px}.roomhead~.panel th #clearSelection{font-size:9px;line-height:1.2;padding:3px 1px;width:100%;max-width:32px;letter-spacing:0}
+
+/* Row readability and CMS-projected GP feedback. */
+.tracklabel{font-size:11px;font-weight:700;color:#923e50;line-height:1.35}.tracklabel small{font-size:11px;font-weight:600;color:#526c80;margin-top:3px}
+#taskRows .row-controls{display:flex;align-items:center;justify-content:center;gap:5px;white-space:nowrap}#taskRows .handle{display:inline-flex;color:#64859a;flex-shrink:0}#taskRows .check{margin:0;flex-shrink:0}
+.roomhead~.panel th #clearSelection{max-width:none;font-size:10px;padding:3px 1px}.roomhead~.panel:not(:has(.rowcheck:checked)) th #clearSelection{display:block;opacity:.45}
+#taskRows .row-number{color:#536f83;font-weight:600;font-variant-numeric:tabular-nums;text-align:center}
+#taskRows .date{line-height:1.3}#taskRows .date+small{margin:0;line-height:1.3}
+#taskRows .qty-pair{display:flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap;font-variant-numeric:tabular-nums}#taskRows .qty-pair button{border:0;background:none;font-weight:700;font-size:11px;padding:0}.qty-pair span{color:#8196a4}.qty-order,.qty-match{color:#28744d}.qty-mismatch,.negative{color:#bd3f55}.qty-empty{color:#8496a3}
+#taskRows tr:hover td{background:#dce7ef}#taskRows tr.selected:hover td{background:#d3e1eb}#taskRows .mission{cursor:pointer;border-bottom:1px dotted #88a1b1}#taskRows .mission:hover,#taskRows .mission:focus-visible{color:#111;border-bottom-color:#111}
+.waiting-tip{background:#e7f1f9;color:#203f56;border:1px solid #84a8c0;border-left:4px solid #397895;width:290px;box-shadow:0 4px 14px #28455a20;font-size:12px;line-height:1.4}.waiting-tip b{font-weight:600}.waiting-tip span{color:#35576e;font-weight:500;margin-top:6px}
+.risk-summary{display:flex;align-items:center;gap:5px;font-weight:700;color:#b83950}.risk-icon{position:relative;font-size:20px;line-height:16px;color:#c8485b}.risk-icon b{position:absolute;left:7px;top:3px;font-size:10px;line-height:12px;color:white}.gp{font-size:11px;font-weight:700;color:#397351}.gp.negative{color:#bd3f55}.tools .count{display:none}
+
+/* One Microsoft-blue Save control; existing save handlers remain. */
+.roomhead~.panel #savePrices,.roomhead~.panel #cancelPrices,.roomhead~.panel #saveOrder,.roomhead~.panel #cancelOrder{display:none!important}.unified-save,.btn.primary{background:#0078d4;border-color:#0078d4;color:white}.unified-save:hover,.btn.primary:hover{background:#106ebe;border-color:#106ebe}
