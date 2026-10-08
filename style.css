@@ -48,3 +48,7 @@ body{font-size:12px}.dept{font-size:12px;letter-spacing:1px}.brand{font-size:19p
 
 #taskRows .supplier:disabled{opacity:1;color:#294359;background:#f7fafc}
 #taskRows .mission{font-weight:500}
+
+/* Staff readability: neutral dark text, retaining action/status colors. */
+body{color:#202b36}nav button{color:#495b69}nav button.active{color:#244a63}.demo,.muted,.eyebrow,.hint,.foot,.ordercount{color:#4c5c69}.field label{color:#394d5e}.note{color:#334653}.notice{color:#645039}.dialoghead .close,.close{color:#445665}.dialoghead h2{color:#223a4d}th{color:#243d50}.metrics .metric span{color:#4c5c69}.stats span,.timeline .event small,.timeline .event p,.event small,.event p{color:#485967}.badgeblue{color:#31516a}
+#taskRows .barcode,#taskRows .packing,#taskRows td small,#taskRows .row-number,#taskRows .qty-empty,#taskRows .qty-pair>span{color:#465765}#taskRows .path,#taskRows .path strong{color:#354d60}#taskRows .money,#taskRows .supplier,#taskRows .po-field,#taskRows .supplier:disabled{color:#202b36}.po-field::placeholder,input::placeholder,textarea::placeholder{color:#5b6875;opacity:1}.tracklabel small{color:#3f5160}.room-counts{color:#435564}.special-context span,.source-product span,.special-explain,.special-qty>div>span,.special-qty label,.extra-input>span{color:#475766}.special-context b{color:#243746}.waiting-tip{color:#223b4e}.waiting-tip span{color:#2d475c}.qty-order,.qty-match{color:#08723a}.net:not(.negative),.gp:not(.negative){color:#22683e}
