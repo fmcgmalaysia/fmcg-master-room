@@ -1,25 +1,21 @@
 # fmcg-master-room
 
-Independent Master Purchase UX using fictional data. Production CMS and cross-site integrations are not connected.
+Independent Master Purchase UX with fictional browser data. Current public release remains v11; this v12 candidate is unpublished.
 
-## UX candidate v12
+## Current candidate
 
-Build: `2026-10-09-master-company-dashboard-v12`.
+Build:`2026-10-09-master-company-dashboard-v12`. Task branch:`feat/company-dashboard-ux-20261009`, draft PR12.
 
-Company selector opens separate NCT/GHR demo workspaces with shared supplier profiles. Menu has Dashboard, Purchase Order, Payment Follow-up and History. Customer entries open their Purchase Room. Dashboard has no progress track; room icons sit above their corresponding count circles.
+NCT/GHR workspaces are separate; supplier profiles are shared. Menu:Dashboard, Purchase Order, Payment Follow-up and History. Customer entries open Purchase Room; its stage icons sit above count circles.
 
-Customer and supplier directories use compact 40px rows, independent scrolling, sticky headers and search. Suppliers show a compact brand preview, company-specific active task counts and profile/add/edit dialogs with Company Info, Sales Contacts and searchable multi-brand tabs. Brand matches rank first without hiding other suppliers. Description remains23% and Supplier8% in the product table. Existing PO, pricing, quantity and draft handlers are preserved.
+A shared Segoe UI11px workbench theme uses dark operating text, bold titles/names/headers, Microsoft-blue count bubbles and red Risk. Dashboard directories have32px rows and balanced name/date/count/action columns, independent scrolling and sticky headers. Overview statistics retain large46px bubbles. Payment Requests uses a dollar sign. Supplier Edit uses a person-and-pencil icon.
 
-Validation:27 focused automated checks passed, including200suppliers/50customers structure. Local Chrome verified compact directories, NCT/GHR task counts, vertical track icons and required supplier-name validation. Candidate remains unmerged and unpublished. No new Wix or GitHub Pages deployment; public site remains v11.
+Payment Follow-up and History use compact ledgers with search and original payment/Path actions. Payment amounts, separate requests and every history event remain intact. Supplier Risk counts receipt differences or negative external GP once per active task, scoped by company.
 
-## Existing release
+Supplier Edit has Company Info, Sales Contacts and Brands tabs. Company Name and Short Name share the first row. Purchase Room options and filters show the short name with a full-name fallback; canonical supplier IDs and PO links remain unchanged. Contacts have equal-height fields and Role dropdown choices:Sales Representative, Sales Manager, Director, Account Dept., Warehouse and Others. Existing nonstandard role values are retained.
 
-v11 UI source:`1e9bed791df8dc059be4fbd4ac199f18fc92cc06`; release record:`c45d4e0d1179248f3fe155c664204a7b5667b48c`. Pages/Wix/public verification previously completed. Manual Save and same-browser draft protection remain. Est. Shipment Date is unknown until its real order-level source is connected; GP remains an external read-only projection.
+Ordinary supplier text uppercases while email case, exact URL paths and canonical brand values remain intact. Brand search/multiple selection preserves existing entries. POINTBASE remains the planned brand authority; no real source connection is implemented.
 
-No verified production tag or main merge is made without independent user acceptance. Credentials, screenshots and private diagnostics are not included in this repository.
- 
-Latest supplier UX:the Dashboard Brands column is removed and a direct Edit button opens company information, contacts and brand selection. The brand tab supports search, selected-only view and bulk selection;60demo options were selected and cancelled in local Chrome. POINTBASE remains the planned canonical brand source; no real brand-source or CMS integration was added.
+Validation:32 focused checks pass, including200 suppliers/50customers, over50brands, risk scope, uppercase/caret/email/URL preservation, Short Name identity separation, independent payment amounts and complete history. Actual browser validation is recorded locally; credentials/screenshots/private diagnostics are excluded from this repository.
 
-Dashboard presentation now uses a compact overview strip and aligned directories with uniform11px/600-weight entity names,40px rows, matching search/table/footer styles and company-scoped supplier Risk beside Tasks. Risk combines receipt issues and negative external GP once per task; counts open affected rows. Supplier company/contact text normalizes to uppercase while email case, exact URL paths and canonical brand values are preserved. Website/brand labels display uppercase without rewriting their identifiers. No business flow, CMS or production deployment changes.
-
-Dashboard directory names/body/search use11px. Numeric counts use solid blue bubbles with white figures; Risk uses solid red bubbles. Larger overview figures retain visual hierarchy. Only presentation changed;40px rows and existing actions/data remain intact.
+CMS, real staff authorization, Pointbase and cross-site receiving remain unconnected. GP is read-only external projection. No new Pages/Wix deployment or public acceptance, no main merge or verified tag; user review is pending.
