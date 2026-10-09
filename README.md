@@ -1,19 +1,19 @@
 # fmcg-master-room
 
-Independent Master departmental workspace. Purchase UX prototype with fictional data; separate from Sales and Buyer Room.
+Independent Master Purchase UX using fictional data. Production CMS and cross-site integrations are not connected.
 
-## Current release
+## UX candidate v12
 
-- Build: `2026-10-08-master-purchase-ux-v11`
-- UI source commit: `1e9bed791df8dc059be4fbd4ac199f18fc92cc06`
-- Pages source: `feat/purchase-draft-date-20261009`, repository root.
-- Pages deployment succeeded and the v11 marker/date layout were verified.
-- Wix: nineteen scoped patches, full exact readback and Studio live confirmation completed.
-- Actual public-page verification: passed after full refresh and password entry; deployed script/styles match the source, date layout and draft/cancel behavior verified, original order data retained.
+Build: `2026-10-09-master-company-dashboard-v12`.
 
-Unsubmitted edits are cached separately from committed data and can be restored in the same browser. Manual Save remains the formal submission. Matching-source checks prevent stale drafts from silently replacing newer saved records, and cache failures are reported.
+Company selector opens separate NCT/GHR demo workspaces with shared supplier profiles. Menu has Dashboard, Purchase Order, Payment Follow-up and History. Customer entries open their Purchase Room. Dashboard has no progress track; room icons sit above their corresponding count circles.
 
-Est. Shipment Date appears in Dashboard/customer summaries. Values remain unknown until a real order-level date source is connected. Product Description remains23% and Supplier8%.
+Customer and supplier directories use compact 40px rows, independent scrolling, sticky headers and search. Suppliers show a compact brand preview, company-specific active task counts and profile/add/edit dialogs. Brand matches rank first without hiding other suppliers. Description remains23% and Supplier8% in the product table. Existing PO, pricing, quantity and draft handlers are preserved.
 
-CMS, real staff authorization, Pointbase and cross-site integrations are not connected. GP remains an external read-only projection. Private diagnostics and browser draft contents are not stored in this repository. No production-baseline merge or verified tag is made before independent user acceptance.
+Validation:20 focused automated checks passed, including200suppliers/50customers structure. Local Chrome verified compact directories, NCT/GHR task counts, vertical track icons and required supplier-name validation. Candidate remains unmerged and unpublished. No new Wix or GitHub Pages deployment; public site remains v11.
 
+## Existing release
+
+v11 UI source:`1e9bed791df8dc059be4fbd4ac199f18fc92cc06`; release record:`c45d4e0d1179248f3fe155c664204a7b5667b48c`. Pages/Wix/public verification previously completed. Manual Save and same-browser draft protection remain. Est. Shipment Date is unknown until its real order-level source is connected; GP remains an external read-only projection.
+
+No verified production tag or main merge is made without independent user acceptance. Credentials, screenshots and private diagnostics are not included in this repository.
