@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>North Cape Trading · Purchase Department</title><meta name="build" content="2026-10-08-master-purchase-ux-v11"><link rel="stylesheet" href="style.css"></head>
-<body><header><b class="brand">NORTH CAPE TRADING</b><span class="dept">PURCHASE DEPARTMENT</span><span class="session">示例身份 · Law / Purchase</span><button id="reset" class="subtle">重置示例</button></header>
-<nav aria-label="Purchase navigation"><button data-view="dashboard">Dashboard</button><button data-view="customers">Customers Job</button><button data-view="room">Purchase Room</button><button data-view="po">Purchase Order</button><button data-view="payments">Payment Follow-up</button><button data-view="history">History</button><span class="demo">本地UX · 示例数据 · 保存仅在本浏览器</span></nav>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>North Cape Trading · Purchase Department</title><meta name="build" content="2026-10-09-master-company-dashboard-v12"><link rel="stylesheet" href="style.css"></head>
+<body><header><label class="company-picker"><select id="companySelect" aria-label="Company"><option value="NCT">North Cape Trading · NCT</option><option value="GHR">Global HR · GHR</option></select></label><span class="dept">Purchase Room</span><span class="session">示例身份 · Law / Purchase</span><button id="reset" class="subtle">重置示例</button></header>
+<nav aria-label="Purchase navigation"><button data-view="dashboard">Dashboard</button><button data-view="po">Purchase Order</button><button data-view="payments">Payment Follow-up</button><button data-view="history">History</button><span id="workspaceCompany" class="company-pill">NCT</span><span class="demo">本地UX · 示例数据 · 保存仅在本浏览器</span></nav>
 <main id="app"></main><div id="toast" role="status" aria-live="polite"></div>
 <dialog id="modal"><div id="dialogContent"></div></dialog>
-<script src="app.js"></script></body></html>
+<script src="workspace.js"></script><script src="app.js"></script></body></html>
 

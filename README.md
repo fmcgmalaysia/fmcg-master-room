@@ -1,19 +1,21 @@
 # fmcg-master-room
 
-Independent Master departmental workspace. Purchase UX prototype with fictional data; separate from Sales and Buyer Room.
+Independent Master Purchase UX with fictional browser data. Public UX release: v12. Published to GitHub Pages and the independent Wix Master test page on 2026-10-09.
 
 ## Current release
 
-- Build: `2026-10-08-master-purchase-ux-v11`
-- UI source commit: `1e9bed791df8dc059be4fbd4ac199f18fc92cc06`
-- Pages source: `feat/purchase-draft-date-20261009`, repository root.
-- Pages deployment succeeded and the v11 marker/date layout were verified.
-- Wix: nineteen scoped patches, full exact readback and Studio live confirmation completed.
-- Actual public-page verification: passed after full refresh and password entry; deployed script/styles match the source, date layout and draft/cancel behavior verified, original order data retained.
+Build:`2026-10-09-master-company-dashboard-v12`. Task branch:`feat/company-dashboard-ux-20261009`, draft PR12.
 
-Unsubmitted edits are cached separately from committed data and can be restored in the same browser. Manual Save remains the formal submission. Matching-source checks prevent stale drafts from silently replacing newer saved records, and cache failures are reported.
+NCT/GHR workspaces are separate; supplier profiles are shared. Menu:Dashboard, Purchase Order, Payment Follow-up and History. Customer entries open Purchase Room; its stage icons sit above count circles.
 
-Est. Shipment Date appears in Dashboard/customer summaries. Values remain unknown until a real order-level date source is connected. Product Description remains23% and Supplier8%.
+A shared Segoe UI11px workbench theme uses dark operating text, bold titles/names/headers, Microsoft-blue count bubbles and red Risk. Dashboard directories have32px rows and balanced name/date/count/action columns, independent scrolling and sticky headers. Overview statistics retain large46px bubbles. Payment Requests uses a dollar sign. Supplier Edit uses a person-and-pencil icon.
 
-CMS, real staff authorization, Pointbase and cross-site integrations are not connected. GP remains an external read-only projection. Private diagnostics and browser draft contents are not stored in this repository. No production-baseline merge or verified tag is made before independent user acceptance.
+Payment Follow-up and History use compact ledgers with search and original payment/Path actions. Payment amounts, separate requests and every history event remain intact. Supplier Risk counts receipt differences or negative external GP once per active task, scoped by company.
 
+Supplier Edit has Company Info, Sales Contacts and Brands tabs. Company Name and Short Name share the first row. Purchase Room options and filters show the short name with a full-name fallback; canonical supplier IDs and PO links remain unchanged. Contacts have equal-height fields and Role dropdown choices:Sales Representative, Sales Manager, Director, Account Dept., Warehouse and Others. Existing nonstandard role values are retained.
+
+Ordinary supplier text uppercases while email case, exact URL paths and canonical brand values remain intact. Brand search/multiple selection preserves existing entries. POINTBASE remains the planned brand authority; no real source connection is implemented.
+
+Validation:32 focused checks pass, including200 suppliers/50customers, over50brands, risk scope, uppercase/caret/email/URL preservation, Short Name identity separation, independent payment amounts and complete history. Actual browser validation is recorded locally; credentials/screenshots/private diagnostics are excluded from this repository.
+
+CMS, real staff authorization, Pointbase and cross-site receiving remain unconnected. GP is read-only external projection. Four release stages passed: code 91fe724, Pages run 37884175989 with the v12 marker and all four public assets matching source, Wix Studio live publication receipt with exact published HTML readback, and force-refreshed public browser validation. Dashboard, NCT/GHR switch, supplier company/Short Name/contacts/six Role options/brands, Payment Follow-up, History and Purchase Room were checked. Existing 30 task IDs, order, five price fields and P.O. values match the recorded v11 public proof; supplier forms were cancelled without saving. Independent user acceptance is pending; no main merge or verified tag.
