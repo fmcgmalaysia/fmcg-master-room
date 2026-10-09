@@ -23,3 +23,7 @@ CMS, real staff authorization, Pointbase and cross-site receiving remain unconne
 ## Pending display adjustment
 
 Dashboard Tasks and Risk show a plain dash at zero; positive counts retain their existing solid bubbles and click actions. This isolated display patch passed the existing 32 checks and direct zero/positive renderer checks. It is not deployed to GitHub Pages or Wix; public release remains the v12 version described above.
+
+## Pending summary alignment
+
+The Dashboard overview uses centered horizontal icon/title/count groups, preserving the46px bubbles, dark semibold labels and zero Tasks/Risk dashes. Dividers are36px high. At narrower widths the overview forms two columns. Only summary CSS changes; JavaScript and other views are unchanged. Actual local Chrome NCT/GHR desktop previews were inspected. This layout adjustment is not deployed to Pages or Wix.
