@@ -27,3 +27,7 @@ Dashboard Tasks and Risk show a plain dash at zero; positive counts retain their
 ## Pending summary alignment
 
 The Dashboard overview uses centered horizontal icon/title/count groups, preserving the46px bubbles, dark semibold labels and zero Tasks/Risk dashes. Dividers are36px high. At narrower widths the overview forms two columns. Only summary CSS changes; JavaScript and other views are unchanged. Actual local Chrome NCT/GHR desktop previews were inspected. This layout adjustment is not deployed to Pages or Wix.
+
+## Display release candidate
+
+Build: `2026-10-09-master-dashboard-display-v13`. Combines the approved zero-count display and horizontal overview alignment. Fresh Wix v12 snapshot matches the recovery file exactly; the prepared five-region patch preserves the complete Purchase operation script. Pages/Wix publication and public verification are still pending.
