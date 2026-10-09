@@ -19,3 +19,7 @@ Ordinary supplier text uppercases while email case, exact URL paths and canonica
 Validation:32 focused checks pass, including200 suppliers/50customers, over50brands, risk scope, uppercase/caret/email/URL preservation, Short Name identity separation, independent payment amounts and complete history. Actual browser validation is recorded locally; credentials/screenshots/private diagnostics are excluded from this repository.
 
 CMS, real staff authorization, Pointbase and cross-site receiving remain unconnected. GP is read-only external projection. Four release stages passed: code 91fe724, Pages run 37884175989 with the v12 marker and all four public assets matching source, Wix Studio live publication receipt with exact published HTML readback, and force-refreshed public browser validation. Dashboard, NCT/GHR switch, supplier company/Short Name/contacts/six Role options/brands, Payment Follow-up, History and Purchase Room were checked. Existing 30 task IDs, order, five price fields and P.O. values match the recorded v11 public proof; supplier forms were cancelled without saving. Independent user acceptance is pending; no main merge or verified tag.
+
+## Pending display adjustment
+
+Dashboard Tasks and Risk show a plain dash at zero; positive counts retain their existing solid bubbles and click actions. This isolated display patch passed the existing 32 checks and direct zero/positive renderer checks. It is not deployed to GitHub Pages or Wix; public release remains the v12 version described above.
