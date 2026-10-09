@@ -1,8 +1,8 @@
 # fmcg-master-room
 
-Independent Master Purchase UX with fictional browser data. Current public release remains v11; this v12 candidate is unpublished.
+Independent Master Purchase UX with fictional browser data. Public UX release: v12. Published to GitHub Pages and the independent Wix Master test page on 2026-10-09.
 
-## Current candidate
+## Current release
 
 Build:`2026-10-09-master-company-dashboard-v12`. Task branch:`feat/company-dashboard-ux-20261009`, draft PR12.
 
@@ -18,4 +18,4 @@ Ordinary supplier text uppercases while email case, exact URL paths and canonica
 
 Validation:32 focused checks pass, including200 suppliers/50customers, over50brands, risk scope, uppercase/caret/email/URL preservation, Short Name identity separation, independent payment amounts and complete history. Actual browser validation is recorded locally; credentials/screenshots/private diagnostics are excluded from this repository.
 
-CMS, real staff authorization, Pointbase and cross-site receiving remain unconnected. GP is read-only external projection. No new Pages/Wix deployment or public acceptance, no main merge or verified tag; user review is pending.
+CMS, real staff authorization, Pointbase and cross-site receiving remain unconnected. GP is read-only external projection. Four release stages passed: code 91fe724, Pages run 37884175989 with the v12 marker and all four public assets matching source, Wix Studio live publication receipt with exact published HTML readback, and force-refreshed public browser validation. Dashboard, NCT/GHR switch, supplier company/Short Name/contacts/six Role options/brands, Payment Follow-up, History and Purchase Room were checked. Existing 30 task IDs, order, five price fields and P.O. values match the recorded v11 public proof; supplier forms were cancelled without saving. Independent user acceptance is pending; no main merge or verified tag.
